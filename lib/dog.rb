@@ -15,7 +15,8 @@ class Dog
   end
   
   def self.all
-    puts @@all
+    @all.map{|instance| name = instance.split(/["@name=">]/)
+     puts name[1]
   end
   
 end
