@@ -15,7 +15,10 @@ class Dog
   end
   
   def self.all
-    @@all
+    @@all.each do |instance|
+      binding.pry
+      instance.split
+    end
   end
   
 end
