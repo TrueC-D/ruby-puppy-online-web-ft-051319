@@ -20,9 +20,3 @@ class Dog
   end
   
 end
-
-#@all.each do |instance| 
-#      name = instance.split(/["@name=">]/)
-#      puts name[1]
-#      binding.pry
-#    end
