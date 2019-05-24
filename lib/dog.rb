@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.all
-    @all.collect{|instance| name = instance.split(/["@name=">]/)}
+    @all.each{|instance| name = instance.split(/["@name=">]/)}
      puts name[1]
    
   end
