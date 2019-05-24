@@ -15,9 +15,8 @@ class Dog
   end
   
   def self.all
-    @@all.each do |instance|
-      name instance.to_s.split("@name=")
-      binding.pry
+    @@all.each{|instance| puts instance.name}
+      
       
     end
   end
