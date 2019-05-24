@@ -17,8 +17,6 @@ class Dog
   def self.all
     @@all.each{|instance| puts instance.name}
       
-      
-    end
   end
   
 end
