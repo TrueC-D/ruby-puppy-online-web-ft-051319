@@ -15,13 +15,13 @@ class Dog
   end
   
   def self.all
-    @all.
-    
-    each do |instance| 
-      name = instance.split(/["@name=">]/)
-      puts name[1]
-      binding.pry
-    end
+    @@all
   end
   
 end
+
+#@all.each do |instance| 
+#      name = instance.split(/["@name=">]/)
+#      puts name[1]
+#      binding.pry
+#    end
