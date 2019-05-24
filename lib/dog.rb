@@ -17,7 +17,7 @@ class Dog
   def self.all
     @@all.each do |instance|
       binding.pry
-      instance.split
+      
     end
   end
   
